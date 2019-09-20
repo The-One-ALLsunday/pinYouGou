@@ -1,0 +1,304 @@
+/* 首页的样式 */
+
+/* main开始 */
+.main{
+    width: 980px;
+    height: 456px;
+    margin-left: 219px;
+    margin-top: 10px;
+    /* background: yellow; */
+}
+.focus{
+    position: relative;
+    width: 720px;
+    height: 456px;
+    /* background: #000; */
+}
+.arrow-left{
+    padding-left: 4px;
+}
+.arrow-left,.arrow-right{
+    position: absolute;
+    top: 50%;
+    margin-top: -20px;
+    width: 20px;
+    height: 40px;
+    background: rgba(0, 0, 0, .3);
+    /* text-align: center; */
+    line-height: 40px;
+    color: #fff;
+    font-family: 'icomoon';
+    font-size: 18px;
+}
+.arrow-right{
+    width: 14px;
+    padding-right: 10px;
+}
+.arrow-right{
+    right: 0;
+}
+.circle{
+    position: absolute;
+    bottom: 20px;
+    left: 50px;
+}
+.circle li{
+    float: left;
+    width: 8px;
+    height: 8px;
+    border: 2px rgba(255, 255, 255, .5) solid;
+    border-radius: 50%;
+    margin: 0 4px;
+    /* 鼠标经过出现小手 */
+    cursor: pointer;
+}
+/* 小手经过圆点变白 */
+.circle li:hover{
+    background: #fff;
+}
+
+
+.newsflash{
+    width: 255px;
+    height: 455px;
+}
+.news{
+    height: 163px;
+    border: 1px #ccc solid;
+    /* background: yellow; */
+}
+.news_hd{
+    height: 32px;
+    font-size: 14px;
+    line-height: 32px;
+    border-bottom: 1px #ccc dotted;
+    padding: 0 15px;
+}
+.news_hd a{
+    float: right;
+    font-size: 12px;
+    font-family: 'icomoon';
+}
+.news_bd ul{
+    padding: 10px 0 0 15px;
+}
+.news_bd li{
+    line-height: 1.8;
+}
+.lifeservers{
+    height: 208px;
+    border: 1px #ccc solid;
+    border-top: none;
+    overflow: hidden;
+    /* background: pink; */
+}
+.lifeservers ul{
+    width: 256px;
+}
+.lifeservers li{
+    position: relative;
+    float: left;
+    width: 63px;
+    height: 70px;
+    border-right: 1px #ccc solid;
+    border-bottom: 1px #ccc solid;
+}
+.lifeservers li a{
+    display: block;
+    /* 解决外边距坍塌合并的问题 */
+    overflow: hidden;
+    height: 70px;
+    /* background: pink; */
+}
+.lifeservers li p{
+    text-align: center;
+}
+.hot{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 12px;
+    height: 15px;
+    background: url(../img/jian.jpg) no-repeat;
+}
+.life_all{
+    display: block;
+    width: 25px;
+    height: 25px;
+    margin: 10px auto;
+    background: url(../img/icons.png) no-repeat;
+}
+.huafei{
+    background-position: -19px -16px;
+}
+.feiji{
+    background-position: -80px -15px;
+}
+.dianying{
+    background-position: -140px -16px;
+}
+.game{
+    background-position: -205px -16px;
+}
+.caipiao{
+    background-position: -17px -87px;
+}
+.jiayouka{
+    background-position: -77px -87px;
+}
+.jiudian{
+    background-position: -140px -87px;
+}
+.huoche{
+    background-position: -205px -87px;
+}
+.zhongchou{
+    background-position: -17px -159px;
+}
+.licai{
+    background-position: -77px -159px;
+}
+.lipin{
+    background-position: -141px -159px;
+}
+.baitiao{
+    background-position: -206px -159px;
+}
+.bargain{
+    height: 75px;
+    margin-top: 5px;
+    background: url(../uploads/bargain.jpg) no-repeat left center / cover;
+}
+/* main结束 */
+
+
+
+/* 推荐模块  开始 */
+.recommend{
+    height: 180px;
+    margin-top: 10px;
+}
+.recohd{
+    width: 200px;
+    height: 180px;
+    background: #5c5251;
+    text-align: center;
+}
+.recobd{
+    width: 1000px;
+    height: 180px;
+    background: #ebebeb;
+}
+.recohd img{
+    margin: 30px 0 10px 0;
+}
+.recohd h3{
+    color: #fff;
+    font-size: 18px;
+    font-weight: normal;
+}
+.recobd li{
+    float:left;
+    width: 248px;
+    height: 163px;
+    border-right: 1px #ccc solid;
+    margin-top: 10px;
+}
+.recobd .recobd-last{
+    border-right: 0;
+}
+
+
+/* 楼层区  开始 */
+.box-hd{
+    height: 30px;
+    margin-top: 25px;
+    border-bottom: 2px #c81623 solid;
+    /* background: #ebebeb; */
+}
+.box-hd h3{
+    float: left;
+    font-size: 18px;
+    color: #c81623;
+}
+.tab-list li{
+    float: left;
+    line-height: 30px;
+
+}
+.tab-list li a{
+    margin: 0 15px;
+}
+.box-bd{
+    height: 360px;
+    /* background: yellow; */
+}
+.box-bd li{
+    overflow: hidden;
+}
+.box-bd img{
+    transition: all .3s;
+}
+.box-bd img:hover{
+    margin-top: -3px;
+}
+.tab_con li{
+    float: left;
+    height: 360px;
+}
+.w209{
+    width: 209px;
+    background: #f9f9f9;
+}
+.w329{
+    width: 329px;
+}
+.w219{
+    width: 219px;
+    border-right: 1px #ccc solid;
+}
+.w220{
+    width: 220px;
+    border-right: 1px #ccc solid;
+}
+.tab-con-item{
+    border-bottom: 1px #ccc solid;
+}
+.tab-con-list{
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+.tab-con-list li{
+    float: left;
+    width: 86px;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    margin-left: 12px;
+    border-bottom: 1px #ccc solid;
+}
+
+
+/* 电梯导航  开始 */
+.fixedtool{
+    width: 66px;
+    position: fixed;
+    top: 185px;
+    left: 50%;
+    margin-left: -675px;
+    background: #fff;
+}
+.fixedtool li{
+    width: 60px;
+    font-size: 14px;
+    text-align: center;
+    line-height: 30px;
+    border-bottom: 1px #ccc solid;
+    cursor: pointer;
+}
+.fix-current{
+    color: #fff;
+    background: #c81623;
+}
+
+/* 电梯导航  结束 */

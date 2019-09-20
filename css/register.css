@@ -1,0 +1,144 @@
+/* 注册页面样式 */
+
+.w{
+    width: 1200px;
+    margin: 0 auto;
+}
+.header{
+    height: 82px;
+    border-bottom: 2px #c1191a solid;
+}
+.logo{
+    padding-top: 20px;
+}
+.register-area{
+    height: 520px;
+    margin-top: 20px;
+    border: 1px #ccc solid;
+}
+.register-area h3{
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+    font-weight: normal;
+    padding: 0 10px;
+    background: #ececec;
+    border-bottom: 1px #ccc solid;
+}
+.register-area em{
+    float: right;
+    font-size: 14px;
+    font-weight: normal;
+}
+.register-area em a{
+    color: #c81623;
+}
+
+.register-form{
+    width: 600px;
+    height: 400px;
+    margin: 40px auto 0;
+    /* border: 1px red solid; */
+}
+.register-form li{
+    height: 36px;
+    margin-bottom: 15px;
+    /* border: 1px green solid; */
+}
+.register-form label{
+    display: inline-block;
+    width: 100px;
+    height: 36px;
+    line-height: 36px;
+    text-align: right;
+}
+.inp{
+    width: 228px;
+    height: 34px;
+    padding: 0 10px;
+    margin: 0 10px;
+    border: 1px #ccc solid;
+    outline: none;
+}
+.error{
+    color: #df3033;
+}
+.error-ico{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    background: url(../img/error.png);
+}
+.safe{
+    text-align: left;
+    color: #ccc;
+    padding-left: 190px;
+}
+.safe > em{
+    float: initial;
+    color: #fff;
+    padding: 0 12px;
+}
+.ruo{
+    background: #de1111;
+}
+.zhong{
+    background: #40b83f;
+}
+.qiang{
+    background: #f79100;
+}
+.register-last{
+    margin-top: -20px;
+}
+.accept-reg{
+    padding-left: 175px;
+    line-height: 36px;
+}
+.accept-reg > input{
+    vertical-align: middle;
+    margin-right: 5px;
+}
+.accept-reg > a{
+    color: skyblue;
+}
+.register-form button{
+    color: #fff;
+    width: 200px;
+    height: 40px;
+    background: #c81623;
+    outline: none;
+    border: none;
+    margin: 30px 0 0 130px;
+    font-size: 14px;
+}
+
+/* footer 开始 */
+.footer{
+    height: 200px;
+    background: #f5f5f5;
+    margin-top: 50px;        
+    padding-top: 10px;
+}
+
+.mod_copyright ul{
+    width: 905px;
+    margin-left: 175px;
+}
+.mod_copyright li{
+    float: left;
+    line-height: 45px;
+}
+.copyright_li{
+    width: 1px;
+    height: 12px;
+    background: #ccc;
+    margin: 18px 10px;
+}
+.copyright_info p{
+    margin-top: 3px;
+    text-align: center;
+    line-height: 1.8;
+}
+/* footer 结束 */

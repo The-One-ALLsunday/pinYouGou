@@ -1,0 +1,150 @@
+.sk{
+    position: absolute;
+    top: 40px;
+    left: 185px;
+    height: 32px;
+    padding: 5px 0 0 10px;
+    border-left: 2px #c1191a solid;
+}
+.sk-list li{
+    float: left;
+    line-height: 45px;
+    margin: 0 25px;
+}
+.sk-list li a{
+    font-size: 16px;
+    font-weight: 700;
+    color: #000;
+}
+.sk-list li a:hover{
+    color: #c81523;
+}
+.sk-con li{
+    float: left;
+    line-height: 45px;
+    margin: 0 20px;
+}
+.sk-con li a{
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'icomoon';
+}
+.sk-con li a:hover{
+    color: #c81523;
+}
+.sk-bd{
+    margin-top: 25px;
+}
+.sk-bd ul{
+    width: 1212px;
+}
+.sk-goods{
+    position: relative;
+    float: left;
+    width: 288px;
+    height: 520px;
+    overflow: hidden;
+    margin: 0 12px 15px 0;
+    border: 1px transparent solid;
+}
+.sk-goods:hover{
+    border: 1px #e11128 solid;
+}
+.sk-goods img{
+    margin-top: 1px;
+}
+.sk-goods-title{
+    font-size: 14px;
+    color: #666;
+    font-weight: normal;
+    padding: 10px 10px;
+}
+.sk-goods-prise{
+    padding: 0 10px;
+}
+.sk-goods-prise em{
+    font-size: 22px;
+    color: #e60012;
+}
+.sk-goods-prise del{
+    font-size: 14px;
+    font-weight: 700;
+}
+.sk-goods-progress{
+    padding: 0 10px;
+}
+.bar{
+    display: inline-block;
+    width: 130px;
+    height: 10px;
+    border: 1px #b1191a solid;
+    vertical-align: middle;
+    margin: 0 5px;
+    border-radius: 5px;
+}
+.bar-in{
+    width: 87%;
+    height: 10px;
+    background: #f24349;
+}
+.sk-goods-progress em,.sk-goods-progress i{
+    color: #f24349;
+}
+.sk-goods-buy{
+    position: absolute;
+    bottom: 0;
+    display: block;
+    width: 100%;
+    line-height: 50px;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    background: #b1191a;
+}
+
+/* 分页开始 */
+.page{
+    margin: 40px 0;
+    text-align: center;
+    /* background: yellow; */
+}
+.page a{
+    display: inline-block;
+    width: 36px;
+    line-height: 36px;
+    border: 1px #ccc solid;
+    background: #f1f1f1;
+    /* vertical-align: middle; */
+}
+.page .page-num-prev,.page .page-num-next{
+    width: 82px;
+}
+.page .page-num-dott,.page .current{
+    border: 1px transparent solid;
+    background: transparent;
+}
+/* .page a:hover{
+    border: 1px transparent solid;
+    background: transparent;
+} */
+
+.page-skip input{
+    width: 46px;
+    height: 36px;
+    border: 1px #ccc solid;
+    text-align: center;
+    /* 过渡写在本身上 */
+    transition: all .3s;
+}
+/* 表单获得焦点 */
+.page-skip input:focus{
+    width: 86px;
+    border: 1px skyblue solid;
+    outline: none;
+}
+.page-skip button{
+    width: 52px;
+    height: 36px;
+    border: 1px #ccc solid;
+    background: #f1f1f1;
+}
